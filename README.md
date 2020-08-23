@@ -15,13 +15,13 @@ Following are the task list with my comments and details about what I did to acc
                              a) When user selects gender from "Male", "Female" and "Do not Disclose"
                              b) When user selects gender = "Custom"
                              
-                          
+                        
 # Instruction to run test cases
 
 Testcases can be run from:
 1. Test Runner   - /TechnicalTestCucumber/src/test/java/cucumberOptions/TestRunner.java
 2. Command promt - After importing the project, testcases can be run from command promt. To run the test cases move from current directory to workspace to project                                directory ./TechnicalTestCucumber and run mvn commands.(mnv verify is required to generate reports).
-3. Jenkinks      - (Let me know if you want to run through Github, I will make it private repository and configure the authorisations) Configure a Jenkins job to the given                      repository
+3. Jenkins     - (Let me know if you want to run through Github, I will make it private repository and configure the authorisations) Configure a Jenkins job to the given                      repository
                    1.(Source Code Management->repositories(Git)->url of repository(provide the url of this project)).
                    2. Under 'Build Triggers', tick 'Build when a change is pushed to Github'.
                    3.Save and build.
